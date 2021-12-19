@@ -1,5 +1,6 @@
-package com.example.mqproducerservice;
+package com.example.mqconsumerservice;
 
+import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -23,8 +24,36 @@ public class MQConfig {
     @Value("${spring.rabbitmq.password}")
     private String password;
 
+    @Value("${spring.rabbitmq.exchange}")
+    private String exchange;
+
+    @Value("${spring.rabbitmq.routingkey}")
+    private String routingKey;
+
+    @Value("${spring.rabbitmq.queue}")
+    private String queue;
+
     @Bean
-    CachingConnectionFactory connectionFactory() {
+    Queue queue() {
+        return new Queue(queue, true);
+    }
+
+    @Bean
+    Exchange myExchange() {
+        return ExchangeBuilder.directExchange(exchange).durable(true).build();
+    }
+
+    @Bean
+    Binding binding() {
+        return BindingBuilder
+                .bind(queue())
+                .to(myExchange())
+                .with(routingKey)
+                .noargs();
+    }
+
+    @Bean
+    public ConnectionFactory connectionFactory() {
         CachingConnectionFactory cachingConnectionFactory = new CachingConnectionFactory(host);
         cachingConnectionFactory.setUsername(username);
         cachingConnectionFactory.setPassword(password);
