@@ -1,13 +1,9 @@
-package com.example.mqproducerservice.model;
+package com.example.rediscachedemo.model;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerator;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -20,6 +16,7 @@ import java.io.Serializable;
 @Table(name="article")
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 public class Article implements Serializable {
     @Id

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MQProducerService" />
+        <module name="RedisCacheDemo" />
         <module name="MQConsumerService" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MQConsumerService" options="-parameters" />
       <module name="MQProducerService" options="-parameters" />
+      <module name="RedisCacheDemo" options="-parameters" />
       <module name="SpringMQDemo" options="-parameters" />
     </option>
   </component>
