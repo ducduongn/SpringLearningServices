@@ -22,13 +22,6 @@ import java.util.Map;
 public class ArticleController {
     private ArticleService articleService;
 
-    private ArticleRedisRepository articleRedisRepository;
-
-    @Autowired
-    public void setArticleRedisRepository(ArticleRedisRepository articleRedisRepository) {
-        this.articleRedisRepository = articleRedisRepository;
-    }
-
     @Autowired
     public void setArticleService(ArticleService articleService) {
         this.articleService = articleService;
@@ -36,14 +29,14 @@ public class ArticleController {
 
     @GetMapping("/all")
     public ResponseEntity<?> getAllArticle() {
-        Map<Long, Article> allArticles = articleRedisRepository.getAllArticles();
+        List<Article> allArticles = articleService.findAll();
 
         return new ResponseEntity(allArticles, HttpStatus.OK);
     }
 
     @GetMapping("/{articleId}")
     public ResponseEntity<Article> getArticleById(@PathVariable Long articleId) {
-        Article article = articleRedisRepository.findArticleById(articleId);
+        Article article = articleService.findByArticleId(articleId);
 
         if (article != null) {
             return new ResponseEntity<Article>(

@@ -23,28 +23,28 @@ public class RedisCacheDemoApplication {
                 .title("elcom diary")
                 .build();
 
-        Article article2 = Article.builder()
-                .articleId(2L)
-                .author("Tom")
-                .title("Golden House")
-                .build();
-
-        Article article3 = Article.builder()
-                .articleId(3L)
-                .author("Otto")
-                .title("How I lost spider man.")
-                .build();
+//        Article article2 = Article.builder()
+//                .articleId(2L)
+//                .author("Tom")
+//                .title("Golden House")
+//                .build();
+//
+//        Article article3 = Article.builder()
+//                .articleId(3L)
+//                .author("Otto")
+//                .title("How I lost spider man.")
+//                .build();
 
         redisRepo.saveArticle(article1);
-        redisRepo.saveArticle(article2);
-        redisRepo.saveArticle(article3);
+//        redisRepo.saveArticle(article2);
+//        redisRepo.saveArticle(article3);
     }
 
     @PreDestroy
     public void cleanData() {
         redisRepo.deleteArticle(1L);
-        redisRepo.deleteArticle(2L);
-        redisRepo.deleteArticle(3L);
+//        redisRepo.deleteArticle(2L);
+//        redisRepo.deleteArticle(3L);
     }
 
     public static void main(String[] args) {

@@ -14,6 +14,7 @@
         <module>MQProducerService</module>
         <module>MQConsumerService</module>
         <module>RedisCacheDemo</module>
+        <module>SpringSecurityDemo</module>
     </modules>
 
     <parent>
