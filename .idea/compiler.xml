@@ -11,6 +11,7 @@
         <module name="RedisCacheDemo" />
         <module name="SpringSecurityDemo" />
         <module name="MQConsumerService" />
+        <module name="SpringScheduler" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +21,7 @@
       <module name="MQProducerService" options="-parameters" />
       <module name="RedisCacheDemo" options="-parameters" />
       <module name="SpringMQDemo" options="-parameters" />
+      <module name="SpringScheduler" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />
     </option>
   </component>

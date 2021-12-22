@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/MQConsumerService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MQProducerService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RedisCacheDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringScheduler/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringSecurityDemo/src/main/java" charset="UTF-8" />
   </component>
 </project>
