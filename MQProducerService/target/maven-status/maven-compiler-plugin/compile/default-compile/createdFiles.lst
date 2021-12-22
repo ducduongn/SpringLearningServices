@@ -1,0 +1,10 @@
+com\example\mqproducerservice\repository\ArticleRepository.class
+com\example\mqproducerservice\MQConfig.class
+com\example\mqproducerservice\service\impl\ArticleServiceImpl.class
+com\example\mqproducerservice\service\MQSender.class
+com\example\mqproducerservice\WebConfig.class
+com\example\mqproducerservice\controller\ArticleController.class
+com\example\mqproducerservice\controller\TestController.class
+com\example\mqproducerservice\MqProducerServiceApplication.class
+com\example\mqproducerservice\model\Article.class
+com\example\mqproducerservice\service\ArticleService.class

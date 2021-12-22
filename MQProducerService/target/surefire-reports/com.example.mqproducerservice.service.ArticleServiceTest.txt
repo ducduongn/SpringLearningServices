@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.mqproducerservice.service.ArticleServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.782 s <<< FAILURE! - in com.example.mqproducerservice.service.ArticleServiceTest
+givenRedisCache_whenFindingArticleById_returnArticleFromCache  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.annotation.CacheConfig': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.annotation.CacheConfig]: Specified class is an interface
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.annotation.CacheConfig]: Specified class is an interface
+

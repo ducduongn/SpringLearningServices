@@ -1,0 +1,10 @@
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\MqProducerServiceApplication.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\WebConfig.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\controller\ArticleController.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\MQConfig.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\service\ArticleService.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\controller\TestController.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\service\MQSender.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\model\Article.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\service\impl\ArticleServiceImpl.java
+D:\Learning\ElcomIntern\SpringMQDemo\MQProducerService\src\main\java\com\example\mqproducerservice\repository\ArticleRepository.java
