@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MQProducerService" />
+        <module name="Crawler" />
         <module name="RedisCacheDemo" />
         <module name="SpringSecurityDemo" />
         <module name="MQConsumerService" />
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Crawler" options="-parameters" />
       <module name="MQConsumerService" options="-parameters" />
       <module name="MQProducerService" options="-parameters" />
       <module name="RedisCacheDemo" options="-parameters" />
