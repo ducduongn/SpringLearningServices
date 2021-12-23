@@ -16,6 +16,7 @@
         <module>RedisCacheDemo</module>
         <module>SpringSecurityDemo</module>
         <module>SpringScheduler</module>
+        <module>Crawler</module>
     </modules>
 
     <parent>

@@ -1,6 +1,7 @@
 package com.example.springscheduler.jobs;
 
 import lombok.extern.slf4j.Slf4j;
+import net.javacrumbs.shedlock.spring.annotation.SchedulerLock;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.TaskScheduler;
 import org.springframework.scheduling.annotation.Async;
@@ -29,8 +30,10 @@ public class Schedulers {
     }
 
     @Scheduled(cron = "${interval-in-cron}")
-    public void testSchedulerCron() {
-        log.info("Fix cron: " + LocalDateTime.now());
+    @SchedulerLock(name = "schedule-lock")
+    public void testSchedulerCron() throws InterruptedException {
+        log.info("Schedule job is done at: " + LocalDateTime.now());
+        Thread.sleep(4000);
     }
 
     @Bean
@@ -39,6 +42,5 @@ public class Schedulers {
         taskScheduler.setPoolSize(5);
         return taskScheduler;
     }
-
 
 }
