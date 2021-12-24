@@ -1,7 +1,7 @@
 package com.example.springsecuritydemo.service.auth;
 
 import com.example.springsecuritydemo.models.auth.User;
-import com.example.springsecuritydemo.repository.UserRepository;
+import com.example.springsecuritydemo.repository.auth.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -11,10 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
-
     @Autowired
     private UserRepository userRepository;
-
 
     @Override
     @Transactional

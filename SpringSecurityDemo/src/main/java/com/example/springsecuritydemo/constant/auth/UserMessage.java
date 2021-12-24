@@ -1,4 +1,4 @@
-package com.example.springsecuritydemo.constant;
+package com.example.springsecuritydemo.constant.auth;
 
 public class UserMessage {
 

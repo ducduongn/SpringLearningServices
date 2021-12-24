@@ -1,0 +1,641 @@
+[INFO  - 2021-12-24T01:53:46.034Z] GhostDriver - Main - running on port 18582
+[INFO  - 2021-12-24T01:53:46.878Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-12-24T01:53:46.878Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.customHeaders:  - {}
+[INFO  - 2021-12-24T01:53:46.878Z] Session [5512d870-645c-11ec-935f-35cff3658879] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-12-24T01:53:46.880Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5512d870-645c-11ec-935f-35cff3658879
+[ERROR - 2021-12-24T01:53:47.972Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'p.replaceAll('"',"")')
+[ERROR - 2021-12-24T01:53:47.973Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  writeCookieByDomain (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:21)
+  workerCookies (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:21)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:25)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:25)
+[ERROR - 2021-12-24T01:53:47.985Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2021-12-24T01:53:47.985Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  ue (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/v3/production/blocks/site/1000000.js:1)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/v3/production/blocks/site/1000000.js:1)
+[ERROR - 2021-12-24T01:53:48.122Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+[ERROR - 2021-12-24T01:53:48.123Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+[ERROR - 2021-12-24T01:53:49.146Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Y.setConfig')
+[ERROR - 2021-12-24T01:53:49.146Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  fa (https://s.eclick.vn/delivery/dfp/do_pc_vne_home_home.js:9)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/do_pc_vne_home_home.js:17)
+[ERROR - 2021-12-24T01:53:50.604Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: Attempting to change enumerable attribute of unconfigurable property.
+[ERROR - 2021-12-24T01:53:50.604Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  defineProperty (https://vnexpress.net/:98)
+  (anonymous function) (https://vnexpress.net/:98)
+[ERROR - 2021-12-24T01:53:51.479Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+[ERROR - 2021-12-24T01:53:51.480Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+[ERROR - 2021-12-24T01:53:51.800Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'p.replaceAll('"',"")')
+[ERROR - 2021-12-24T01:53:51.800Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  writeCookieByDomain (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:21)
+  setUser (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:23)
+  (anonymous function) (:0)
+  onreadystatechange (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:22)
+[ERROR - 2021-12-24T01:53:52.209Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Y.setConfig')
+[ERROR - 2021-12-24T01:53:52.209Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  fa (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:9)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:17)
+[ERROR - 2021-12-24T01:53:57.533Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T01:53:57.534Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T01:53:57.537Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T01:53:57.537Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T01:53:59.088Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.location.href.includes("ngoisao.net")')
+[ERROR - 2021-12-24T01:53:59.089Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://s1.vnecdn.net/myvne/j/v33/m_myvne_users_v3.js:1)
+[ERROR - 2021-12-24T01:53:59.541Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: myvne_users
+[ERROR - 2021-12-24T01:53:59.541Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  myvne_check_save_interval (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  (anonymous function) (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  l (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  add (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  ready (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+[ERROR - 2021-12-24T01:53:59.561Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: common
+[ERROR - 2021-12-24T01:53:59.562Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  initLayout (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/mmain_personalize.js:8)
+  execCb (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  enable (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  h (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  completeLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  onScriptLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+[ERROR - 2021-12-24T01:54:00.129Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T01:54:00.129Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/s/sungroup/2021/12/12/80509/480x960/dfp/mobile/rmd/resp/inpage/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsu3SoTllqqOSfoAgeKIcJM_k62qB_rwjVHngBo1Auq7lUlpfpNG8Uku_HSUVlaa-TVBZLRMSXSpplBwaOI_PHayvtbQSYpww4wjh3LLPJuC8ju1gs-SdbXzm_AILph-ioXlhMHToYfZ1zxTrUPpEG5AyC5bolVsEXA92VY0GFuXBDxF07UGTcW7eP8rqHgc5uND9fK4i2T_lHFDbkBGHgM-8xmPumHLEPY2KsAxejYgZREt_y9eLRrysWxElkFIP2MJC2IB3tcP3P_KD_2ZO5clsbnpCpsZCkKHsOvIagZtm1wcd12e5brM1CSgo0-dtMClXw_q44A%26sig%3DCg0ArKJSzORAs4RoJBPJEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fsunriversidevillage.vn%2F&otherlink=&campaign_name=Sun%20Riverside%20Village&index_brand=LB1001.13_Sun%20group%20&index_industrial=L1001_B%E1%BA%A5t%20%C4%91%E1%BB%99ng%20s%E1%BA%A3n:797)
+[ERROR - 2021-12-24T01:54:00.172Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T01:54:00.172Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/e/edutalk/2021/12/22/81473/414x207/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjssRlpuuDY3nevERdvRGpteXKoHJqaQrfm0vxy_FXyThWAKVwFBWNS5uy4DaxX_ET69JpzM1op8pDPh7U2Fod7O5SSUPMMmJ7OBUy5lN2HJZ59y-NmgFAdfa0dTyDoq31pmWm-sfSPbY0bXk8K0X-pK7lrAX-H-0SJ4nqV-QEQlZl9MY99PLMVIJAdYavJTkWZGyT1mwswDhP6HVffrbLUHTgbuLCvnmkdpKs4J8Cq8wDgS0mFLrmkANUFATqwrjPjIiN9CU4fo3p3Xy3-c-KFSCbnH4ZhK0qymFd0oLWrnAifUxDvayQqrP8mbBVLbzwDSKPOU%26sig%3DCg0ArKJSzCHAYY35bEGaEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fscholarship.buv.edu.vn%2F&otherlink=&campaign_name=Edutalk%20&index_brand=PB1001.167_Gi%C3%A1o%20d%E1%BB%A5c&index_industrial=P1001_Gi%C3%A1o%20d%E1%BB%A5c%20-%20du%20h%E1%BB%8Dc:797)
+[ERROR - 2021-12-24T01:54:00.445Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T01:54:00.445Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/b/beverly/2021/12/22/81863/414x345/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsuHybuX_SCvu1w4sAISO5osiKd6u7uiKd7YPSmfWjGWyjdReQt1RbunvwYT7IEliFAGIFU4LJsd7OcV65veD611DgrZ_KM6u-puPSIXYZsFLllfDua09MEKf3Oxscey6QGIPeVWDT6-64BBb46ttYpFqlC9svvZazvXDycHs-EyWsnzCa4Y14hsOKZaWAtE-SQjDkuuV1iSFgjBLdxhHn5NZhQpMOTavxQr1jt_a2VVgzL0Sb-03N4FzGd68hD-GK5Lj4CMIh6yaUsT4R6KfTWzVdgtBpuzLpdAhBgBZbg9gfCG3sFw0eiPxxNUuFfoDTaxpFVp%26sig%3DCg0ArKJSzK4Mxfph4OonEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fgrandpark.vinhomes.vn%2Fthe-beverly%2F%253Futm_source%253Dvnexpress%2526utm_medium%253Ddisplay%2526utm_campaign%253Dlaunching-branding-beverly%2526utm_term%253Dbreakpage-mb-cpd%2526utm_content%253Dbanner-02-html&otherlink=&campaign_name=Vinhomes%20The%20Beverly%20-%20BPHome%20&index_brand=LB1001.565_Vinhomes%E2%80%8E&index_industrial=L1001_B%E1%BA%A5t%20%C4%91%E1%BB%99ng%20s%E1%BA%A3n:797)
+[ERROR - 2021-12-24T01:54:00.459Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T01:54:00.460Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_004/ads/g/grandbayhalongvillas/2021/12/19/00000/414x200/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsvHidFqnZGy6oq6RMEVrt_-TfO9J5hCvQTxIF1hxFmdhg9GF_IlUG4wCaqBEyb-VcGhjhtz_rNnr_RT_PJlY4zan1XsKmuaFYf2jcgHrOm2e8jHATxL0eQGhr0jdcBUdupg-dK3f79zrvbrElnFGtRJiknSDXZDCqtTKtf0zsAQ2F_cLByhon2Yj5-FEVUbtJl-NHg4xw-186vDwGn-xsmoc2AIS4yjitrShaz_omhAJjjW6wUspaBcJCsuBCgSDTtd-V9d8zFVv4Ax184r6rS7-D0h1CTlJUYaLCax-86GgrWyDswkxxPnzacdzDjKAgTYfUMkag%26sig%3DCg0ArKJSzHpb5G6ABf7VEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fbimland.com%2Fproject%2Fgrand-bay-halong-villas%253Futm_source%253DVNE%2526utm_medium%253DOverlayCard%2526utm_campaign%253DGBHL%2526utm_id%253DCTKM&otherlink=&campaign_name=Bim%20Halong%20Villas&index_brand=LB1001.640_BIM%20Group&index_industrial=L1001_B%E1%BA%A5t%20%C4%91%E1%BB%99ng%20s%E1%BA%A3n:797)
+[INFO  - 2021-12-24T01:58:46.065Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:03:46.100Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:08:46.137Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:13:46.140Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:18:46.188Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:23:46.225Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2021-12-24T02:24:02.277Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: Attempting to change enumerable attribute of unconfigurable property.
+[ERROR - 2021-12-24T02:24:02.277Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  defineProperty (https://vnexpress.net/:98)
+  (anonymous function) (https://vnexpress.net/:98)
+[ERROR - 2021-12-24T02:24:02.925Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+[ERROR - 2021-12-24T02:24:02.925Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+[ERROR - 2021-12-24T02:24:03.273Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'p.replaceAll('"',"")')
+[ERROR - 2021-12-24T02:24:03.273Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  writeCookieByDomain (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:21)
+  setUser (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:23)
+  (anonymous function) (:0)
+  onreadystatechange (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:22)
+[ERROR - 2021-12-24T02:24:03.413Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.location.href.includes("ngoisao.net")')
+[ERROR - 2021-12-24T02:24:03.413Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://s1.vnecdn.net/myvne/j/v33/m_myvne_users_v3.js:1)
+[ERROR - 2021-12-24T02:24:03.553Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: myvne_users
+[ERROR - 2021-12-24T02:24:03.553Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  myvne_check_save_interval (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  (anonymous function) (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  l (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  add (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  ready (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+[ERROR - 2021-12-24T02:24:03.665Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: common
+[ERROR - 2021-12-24T02:24:03.666Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  initLayout (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/mmain_personalize.js:8)
+  execCb (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  enable (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  h (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  completeLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  onScriptLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+[ERROR - 2021-12-24T02:24:04.009Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Y.setConfig')
+[ERROR - 2021-12-24T02:24:04.010Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  fa (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:9)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:17)
+[ERROR - 2021-12-24T02:24:07.406Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new b')
+[ERROR - 2021-12-24T02:24:07.406Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  (anonymous function) (https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.js:3)
+  (anonymous function) (https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.js:3)
+[ERROR - 2021-12-24T02:24:07.842Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T02:24:07.842Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_004/ads/g/grandbayhalongvillas/2021/12/19/00000/414x200/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjst3RGs4uP69984v7T7vIp7Xq0NLULSMWNO0dURaiJwfpOzbsSCRD_eOKMNDQFj6oXjZzOs271AUR8rg_smiQc0oFd9_QX0suyY4TyneaJOkzUU_2bYkh6NQ52b6pbQ6LUukc7GMd7-oOt-PevmLFkHYfuWfcPO-Jav5a3jHtLtpxRPlgoleSKM18IFjImpRDyd8Az9PkKNMJxDwexdhfamaxHaN4fuaTNZnJcu5wD0KHJIg28_UCnKQQ37jKCsVUvuw1WgLiiUh9X3IRMZDlWnPZly-kO5y208o0h6_S86KLfxPhHfLrnv9U79Vo8a8nIjRVySDuA%26sig%3DCg0ArKJSzOEtEkZrcitSEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fbimland.com%2Fproject%2Fgrand-bay-halong-villas%253Futm_source%253DVNE%2526utm_medium%253DOverlayCard%2526utm_campaign%253DGBHL%2526utm_id%253DCTKM&otherlink=&campaign_name=Bim%20Halong%20Villas&index_brand=LB1001.640_BIM%20Group&index_industrial=L1001_B%E1%BA%A5t%20%C4%91%E1%BB%99ng%20s%E1%BA%A3n:797)
+[ERROR - 2021-12-24T02:24:08.224Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T02:24:08.224Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_002/ads/c/casper/2021/12/17/00000/414x207/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjssFeR42y0rHSxOGfb4wrznQTBu8FAaZ6QAp03t8xi3Ju9g4ThhXfviLqaSV-bFOGTK3OkokpZuKiAeT2EXMKQ1QgNzHA0qgyCHjtn07UD0FqCdjiktakpiw5XUt4vLNndFINHU6wmgyFoD-eEtG-FR0wd6QO-ub19k0X4OExqQ6aAyxcoEYE4WvaRkIDNLXOyZ6uUMuZi3Hb9L3kGQdXX7NhmrCw_JdENTsekS1P-BGv_je8o9bwEPdfFFVMCwgt-LxQ7f07n8vefZ8Z5p2B7YrCEkFydN1hp0sVc-cLo8UB-RgUTGS7kYanOsT0OzldEkRAPs%26sig%3DCg0ArKJSzA8uD7OGc1Q9EAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fwww.casper-electric.com%2Fvi%2Fmay-giat%253Futm_source%253DVNE%2526utm_medium%253DLeaderBoardHomeMobile%2526utm_id%253DCasper&otherlink=&campaign_name=Casper&index_brand=GB1008.6_casper&index_industrial=G1008_C%C3%B4ng%20ngh%E1%BB%87%20-%20%C4%91i%E1%BB%87n%20-%20%C4%91i%E1%BB%87n%20t%E1%BB%AD-%20%C4%91i%E1%BB%87n%20l%E1%BA%A1nh:797)
+[ERROR - 2021-12-24T02:24:08.709Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T02:24:08.709Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T02:24:08.709Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T02:24:08.709Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T02:24:08.740Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T02:24:08.740Z] Session [5512d870-645c-11ec-935f-35cff3658879] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/c/casper/2021/11/16/0000/414x345/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsvp2WgammVfuzZyNtONrTyvA1DxURD67gUVMF_vSbUFGSQfTmkCD-_xVQ1erdg8-i23plsPw4PchXJ7wqc3ITqf1zWYxThb64OaiJEUodOoAhl8nZ2FRfoZIcv7wp2A-PkS52V8LMwAuKNLPVOJ8Xn8SR6_q49Cxf1ekvhyeRhHrC5oQkE0oKWfdRQtpLjVByJbRgIMbckwMQUpiOcUXX0LoRj_9opm4zqY5GMqECUccQpmwA2np_7tab-_Hs9SGoqj0OapPMHFd7i_YAvE5-nLBxwY-YNYyFaJprvTPGNE5ZNl4Q_906uWz-xrf_I167uTI42G%26sig%3DCg0ArKJSzOu8Kz6yH9eUEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fwww.casper-electric.com%2Fvi%2Ftet-sam-casper-trung-ngay-xe-hop--b203.html%253Futm_source%253DVNE%2526utm_medium%253DBreakpageHomeMobile&otherlink=&campaign_name=Casper-BP1221&index_brand=G1008_C%C3%B4ng%20ngh%E1%BB%87%20-%20%C4%91i%E1%BB%87n%20-%20%C4%91i%E1%BB%87n%20t%E1%BB%AD-%20%C4%91i%E1%BB%87n%20l%E1%BA%A1nh&index_industrial=:797)
+[INFO  - 2021-12-24T02:28:46.253Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:33:46.292Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:38:46.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:43:46.337Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:48:46.338Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:53:46.375Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:00:47.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:05:47.662Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:10:47.669Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:15:47.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:20:47.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:25:47.683Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:30:47.689Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:35:47.702Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:40:47.704Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:45:47.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:50:47.731Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:55:47.738Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:00:47.751Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:05:47.760Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:10:47.769Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:15:47.769Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:20:47.771Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:25:47.781Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:30:47.782Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:35:47.797Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:40:47.804Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:45:47.818Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:50:47.818Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T04:55:47.957Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T05:00:47.965Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T05:05:47.964Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T05:10:47.964Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T05:15:47.964Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T05:20:47.968Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T05:25:47.991Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T06:01:39.633Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T06:06:39.652Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T06:11:39.653Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T06:16:39.653Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T06:21:39.653Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ns clean-up phase starting NOW
+[ERROR - 2021-12-24T02:26:15.497Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: Attempting to change enumerable attribute of unconfigurable property.
+[ERROR - 2021-12-24T02:26:15.497Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  defineProperty (https://vnexpress.net/:98)
+  (anonymous function) (https://vnexpress.net/:98)
+[ERROR - 2021-12-24T02:26:16.084Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+[ERROR - 2021-12-24T02:26:16.084Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+[ERROR - 2021-12-24T02:26:17.111Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Y.setConfig')
+[ERROR - 2021-12-24T02:26:17.111Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  fa (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:9)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:17)
+[ERROR - 2021-12-24T02:26:18.597Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'p.replaceAll('"',"")')
+[ERROR - 2021-12-24T02:26:18.597Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  writeCookieByDomain (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:21)
+  setUser (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:23)
+  (anonymous function) (:0)
+  onreadystatechange (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:22)
+[ERROR - 2021-12-24T02:26:19.935Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.location.href.includes("ngoisao.net")')
+[ERROR - 2021-12-24T02:26:19.935Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://s1.vnecdn.net/myvne/j/v33/m_myvne_users_v3.js:1)
+[ERROR - 2021-12-24T02:26:21.938Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: myvne_users
+[ERROR - 2021-12-24T02:26:21.938Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  myvne_check_save_interval (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  (anonymous function) (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  l (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  add (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  ready (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+[ERROR - 2021-12-24T02:26:26.814Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: common
+[ERROR - 2021-12-24T02:26:26.814Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  initLayout (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/mmain_personalize.js:8)
+  execCb (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  enable (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  h (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  completeLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  onScriptLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+[ERROR - 2021-12-24T02:26:27.406Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new b')
+[ERROR - 2021-12-24T02:26:27.406Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.js:3)
+  (anonymous function) (https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.js:3)
+[ERROR - 2021-12-24T02:26:28.436Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T02:26:28.437Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T02:26:28.437Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T02:26:28.437Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T02:26:35.525Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T02:26:35.525Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_002/ads/c/casper/2021/12/17/00000/414x207/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjst0lfxolBPFF8R7T5VW64ArAHbp69OT-7Wg75W3QJXWVChyR0vAXMPFPzUym0e0exawgm-J8i5ZqWZbweGjZip8uZl3G6y6wOryRzhRssVjv5TdLMt6n4OSyt_Ez5mWkfWnqR85xud1bmF1G2oN4DfQRzQ35-ylTCDaLRtiX1JMahU8Jb_85JTxR4kKepfLmIe_LLKxFSbM-WF8UpLesNvz4YOu1jwX4NUAdqgH9K8xCFtM0JmKxGHB_8U3FApyzii-8BEy0aDPTgMor4Ev0uZOZ2vmbD25XhAAb-4_kDk9M463kk8Qu26-2ohfhcpovUmV00c%26sig%3DCg0ArKJSzMjAxPTvXtHoEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fwww.casper-electric.com%2Fvi%2Fmay-giat%253Futm_source%253DVNE%2526utm_medium%253DLeaderBoardHomeMobile%2526utm_id%253DCasper&otherlink=&campaign_name=Casper&index_brand=GB1008.6_casper&index_industrial=G1008_C%C3%B4ng%20ngh%E1%BB%87%20-%20%C4%91i%E1%BB%87n%20-%20%C4%91i%E1%BB%87n%20t%E1%BB%AD-%20%C4%91i%E1%BB%87n%20l%E1%BA%A1nh:797)
+[ERROR - 2021-12-24T02:26:36.309Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T02:26:36.309Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/p/ponnie/2021/12/15/80871/414x200/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsvVTxU2vkm16oATSZABhcqI38qcqViwohNU71GxNzXvNJvuLGrutUHjREs6C2_xqgvIoAIXUhXRQpB79ZduQXppeB137b8WQpLagxyJaw3DMIIlJ1BIHYqB1kdegBLv0_cATRzwYG49D27kWtcHNIbz1nyDybaM1kcRRFninBr0IMaEufJLHcn3GH8jk1cLsjF_L0MkHbi1G2xVUvNa2dFeEynpNIdQRM3rQ0oUbHNYTnhjOiNUYr9WLLqOI8jh4hYWLNDtLChhJ-I-Gm6OiU24iSKbTYhwDNn3YuSgHccWpfNh33D8sxHIuHDdPZUCJOYMcwK_Fw%26sig%3DCg0ArKJSzIhWYAISwhtiEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fwww.facebook.com%2Fxucxichponnie%2F&otherlink=&campaign_name=MASAN%20-%20PO1221&index_brand=GB1002.421_Masan&index_industrial=G1003_Ti%C3%AAu%20d%C3%B9ng%20-%20th%E1%BB%B1c%20ph%E1%BA%A9m%2C%20h%C3%B3a%20m%E1%BB%B9%20ph%E1%BA%A9m:797)
+[ERROR - 2021-12-24T02:26:36.770Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T02:26:36.770Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/c/casper/2021/11/16/0000/414x345/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjstBlqXtwt3-UsJ7FFFj8FgEd2g8R1LFW6L0lyi0Q0qhZq5NLKzYoH7S3pBy_lEQIrS6J1QEUHYd8duNQy7KcS4GaC6TbG_vUy-RxHxcg2H7NVzaut-KI_z5GQQn5UF3esz1xY_KUAMmjRooR1n3JbebusKoNvL_HNPN51C6bK6HhyA7hkn2B9hmpj8VWaapiDNm-LA5xNp8chKQJXKc2aciwtgqGJRKZb2pTxbZJAaW3Sp02iW-NEEpEIr8rurnRpD-DaiXAwWuyoJ19ZSp0vJa6gNdJM4urbLsr25IJCXWUsOYESGP1Mt7ycawpAuDXaXBZbx6%26sig%3DCg0ArKJSzPABgAOjWkwPEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fwww.casper-electric.com%2Fvi%2Ftet-sam-casper-trung-ngay-xe-hop--b203.html%253Futm_source%253DVNE%2526utm_medium%253DBreakpageHomeMobile&otherlink=&campaign_name=Casper-BP1221&index_brand=G1008_C%C3%B4ng%20ngh%E1%BB%87%20-%20%C4%91i%E1%BB%87n%20-%20%C4%91i%E1%BB%87n%20t%E1%BB%AD-%20%C4%91i%E1%BB%87n%20l%E1%BA%A1nh&index_industrial=:797)
+[INFO  - 2021-12-24T02:31:10.257Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:36:10.290Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:41:10.310Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:46:10.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:51:10.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T02:56:10.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2021-12-24T02:56:51.681Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: Attempting to change enumerable attribute of unconfigurable property.
+[ERROR - 2021-12-24T02:56:51.681Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  defineProperty (https://vnexpress.net/:98)
+  (anonymous function) (https://vnexpress.net/:98)
+[ERROR - 2021-12-24T02:56:52.717Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+[ERROR - 2021-12-24T02:56:52.717Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+[ERROR - 2021-12-24T02:56:53.709Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Y.setConfig')
+[ERROR - 2021-12-24T02:56:53.709Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  fa (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:9)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:17)
+[ERROR - 2021-12-24T02:56:56.448Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'p.replaceAll('"',"")')
+[ERROR - 2021-12-24T02:56:56.448Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  writeCookieByDomain (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:21)
+  setUser (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:23)
+  (anonymous function) (:0)
+  onreadystatechange (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:22)
+[ERROR - 2021-12-24T02:56:57.583Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.location.href.includes("ngoisao.net")')
+[ERROR - 2021-12-24T02:56:57.584Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://s1.vnecdn.net/myvne/j/v33/m_myvne_users_v3.js:1)
+[ERROR - 2021-12-24T02:56:58.129Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: myvne_users
+[ERROR - 2021-12-24T02:56:58.129Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  myvne_check_save_interval (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  (anonymous function) (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  l (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  add (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  ready (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+[ERROR - 2021-12-24T02:57:00.396Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: common
+[ERROR - 2021-12-24T02:57:00.396Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  initLayout (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/mmain_personalize.js:8)
+  execCb (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  enable (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  h (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  completeLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  onScriptLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+[ERROR - 2021-12-24T02:57:01.262Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T02:57:01.262Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T02:57:01.262Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T02:57:01.262Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T02:57:04.501Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T02:57:04.501Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/d/dmcl/2021/12/14/80893/414x345/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjssgTo3gFJ7q2sHelWmFPeyrzDatByEN6ZhuGeQv-EmqoOSuwXQ23TwWQ_0eMKaYYH7SVQUiE8gMMnsmoXsUXNIT1iWTBDfIiKstdJAFIJQ92zi-UUCVJUoUucX5Dh6uYDL8-QRa1y7oblJ5bA_ghdFvjY3OfkWMYm0zpKbRT4Ezzmg2Q6_KjojGPQciHq2BssZdKcWODy5j08z2XZbAxAqnG-Ax2N9jLSBDTrukvOW73apbFq5ma9BybPh0U_4q2yKS9ULKwbt6ApuIFL_wpgUdHDS_pmmoSv1HYcCymFGzZGLNkiZcWtYr3aAPbZmJv-tieqFr%26sig%3DCg0ArKJSzMrZW0KB6RihEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fkhuyenmai.dienmaycholon.vn%2Fchuongtrinhdacbiet%2Fblack-friday-ngay-ruc-lua-giam-kinh-hoang%253Futm_source%253DVnexpress%2526utm_medium%253D12.12%2526utm_campaign%253D9-12.12&otherlink=&campaign_name=DMCL%20-%20BPHome&index_brand=GB1010.13_%C4%90i%E1%BB%87n%20m%C3%A1y%20Ch%E1%BB%A3%20L%E1%BB%9Bn&index_industrial=G1010_Th%C6%B0%C6%A1ng%20m%E1%BA%A1i%20-%20Th%C6%B0%C6%A1ng%20m%E1%BA%A1i%20%C4%91i%E1%BB%87n%20t%E1%BB%AD:797)
+[INFO  - 2021-12-24T03:01:10.353Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:06:10.353Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:11:10.367Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:16:10.377Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:21:10.381Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:26:10.390Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2021-12-24T03:27:08.511Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: Attempting to change enumerable attribute of unconfigurable property.
+[ERROR - 2021-12-24T03:27:08.511Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  defineProperty (https://vnexpress.net/:98)
+  (anonymous function) (https://vnexpress.net/:98)
+[ERROR - 2021-12-24T03:27:09.254Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+[ERROR - 2021-12-24T03:27:09.254Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+[ERROR - 2021-12-24T03:27:09.628Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'p.replaceAll('"',"")')
+[ERROR - 2021-12-24T03:27:09.628Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  writeCookieByDomain (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:21)
+  setUser (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:23)
+  (anonymous function) (:0)
+  onreadystatechange (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:22)
+[ERROR - 2021-12-24T03:27:09.988Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.location.href.includes("ngoisao.net")')
+[ERROR - 2021-12-24T03:27:09.989Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://s1.vnecdn.net/myvne/j/v33/m_myvne_users_v3.js:1)
+[ERROR - 2021-12-24T03:27:10.092Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T03:27:10.093Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T03:27:10.093Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T03:27:10.093Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T03:27:10.094Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: myvne_users
+[ERROR - 2021-12-24T03:27:10.094Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  myvne_check_save_interval (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  (anonymous function) (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  l (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  add (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  ready (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+[ERROR - 2021-12-24T03:27:10.095Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: common
+[ERROR - 2021-12-24T03:27:10.095Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  initLayout (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/mmain_personalize.js:8)
+  execCb (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  enable (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  h (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  completeLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  onScriptLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+[ERROR - 2021-12-24T03:27:10.222Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Y.setConfig')
+[ERROR - 2021-12-24T03:27:10.223Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  fa (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:9)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:17)
+[ERROR - 2021-12-24T03:27:12.112Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new b')
+[ERROR - 2021-12-24T03:27:12.112Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.js:3)
+  (anonymous function) (https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.js:3)
+[ERROR - 2021-12-24T03:27:12.322Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T03:27:12.322Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_003/ads/t/themizuki/2021/12/15/80615/300x250/dfp/mobile/std/fixed/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsslxRT7EY5hp7oLlO_OP9lkYSMfKZKLuSdhKejRhjaNE3PrBSMNTzDVhP9ZFiea2GwwVtEp-JoxvFO09_YmK5xdK354rlWEgt2bVJDWaLyv3OZkcO9Fu_oxY3m_kRrMgJCPDFtZS8KdCjjqZzGKNSy8FgEnntztSeqMYzvrb6NXTmqj9JcuqhewReZSNSDMswzrttO2a7-bF7GBsrjUCtnDzFgWBTMdsXb1LIcY57q4az69rLQUug2FSKkhkYvGN3vtNL-w1NTdlS85z2ghgpoUJ7P2sNncG2AyoCrhE6wjr49lZqw7XnsX8QMtBFZol-hQ%26sig%3DCg0ArKJSzM2J8MYgH7BXEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%253A%252F%252Fthemizuki.mizuki.vn%252F%253Futm_source%253Dvne_mb%2526utm_medium%253Dbanner%2526utm_campaign%253Dmizuki_park%2526utm_id%253Dmizuki_park&otherlink=&campaign_name=Nam%20Long&index_brand=LB1001.554_Nam%20Long&index_industrial=L1001_B%E1%BA%A5t%20%C4%91%E1%BB%99ng%20s%E1%BA%A3n:797)
+[ERROR - 2021-12-24T03:27:13.009Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T03:27:13.009Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/a/aquacity/2021/12/20/81547/414x207/03/dfp/mobile/rmd/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjssnaoJ7lD3FdaRLnbRKTcHUQ55ykU3V8Pm7wZlvYZ9XQSsBHuKBJl2OdGwJrzYkhHr5hAhYiH1JJw3fMAPKaqVukJfW-dyRN4FaPAWDrQQZ2BTFeM5avcHr48cbHxW7ufB25ABoz4uyvYNubvK1wCQh4RjnHJCUo2THE8RMharRo3t2LFt56F06lZtYM_GUUPiyMHyhJ3bh9QsCBFb2oEWvFbn0u0eFcbdHIbZzM0EbCTV70J4JIxTHvO_fzn8Civy-IpDkOq9SgvcSX39Csv4uKPgrJneRggL7U9eD2VTRY6_3w6Ns_K1sLhKvzs_HbQXdUyQ%26sig%3DCg0ArKJSzJVHjGY4760UEAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Faquacity.com.vn%2F%253Futm_source%253Dnews%2526utm_medium%253Dcpd%2526utm_campaign%253DLeaderBoard%2526utm_id%253Dvnexpress&otherlink=&campaign_name=Aqua%20City&index_brand=LB1001.3_Novaland%20&index_industrial=L1001_B%E1%BA%A5t%20%C4%91%E1%BB%99ng%20s%E1%BA%A3n:797)
+[INFO  - 2021-12-24T03:31:10.390Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:36:10.400Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:41:10.402Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:46:10.418Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:51:10.429Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-12-24T03:56:10.433Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2021-12-24T03:57:14.326Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: Attempting to change enumerable attribute of unconfigurable property.
+[ERROR - 2021-12-24T03:57:14.326Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  defineProperty (https://vnexpress.net/:98)
+  (anonymous function) (https://vnexpress.net/:98)
+[ERROR - 2021-12-24T03:57:15.053Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+[ERROR - 2021-12-24T03:57:15.054Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:9)
+  i (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/prebid.js:3)
+[ERROR - 2021-12-24T03:57:15.185Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'p.replaceAll('"',"")')
+[ERROR - 2021-12-24T03:57:15.185Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  writeCookieByDomain (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:21)
+  setUser (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:23)
+  (anonymous function) (:0)
+  onreadystatechange (https://s1.vnecdn.net/vnexpress/restruct/j/v1273/eclick/ea3.js:22)
+[ERROR - 2021-12-24T03:57:15.285Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.location.href.includes("ngoisao.net")')
+[ERROR - 2021-12-24T03:57:15.285Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://s1.vnecdn.net/myvne/j/v33/m_myvne_users_v3.js:1)
+[ERROR - 2021-12-24T03:57:15.325Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: myvne_users
+[ERROR - 2021-12-24T03:57:15.325Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  myvne_check_save_interval (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  (anonymous function) (https://s1.vnecdn.net/myvne/j/v33/plugins/vne_v3.js:1)
+  l (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  add (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+  ready (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/helper/jquery.min.js:4)
+[ERROR - 2021-12-24T03:57:15.347Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: common
+[ERROR - 2021-12-24T03:57:15.347Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  initLayout (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/module/mhome_personalize.js:1)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/mmain_personalize.js:8)
+  execCb (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  (anonymous function) (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  each (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  emit (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  check (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  enable (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  init (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  h (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  completeLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+  onScriptLoad (https://s1.vnecdn.net/vnexpress/restruct/j/v2721/redesign/require.js:6)
+[ERROR - 2021-12-24T03:57:15.844Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T03:57:15.844Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T03:57:15.845Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DeviceModelParser
+[ERROR - 2021-12-24T03:57:15.845Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+  (anonymous function) (https://octopus-stream01-cads.fpt.vn/cdp.js:8)
+[ERROR - 2021-12-24T03:57:16.055Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Y.setConfig')
+[ERROR - 2021-12-24T03:57:16.055Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  fa (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:9)
+  (anonymous function) (https://s.eclick.vn/delivery/dfp/do_mb_vne_home_home.js:17)
+[ERROR - 2021-12-24T03:57:17.623Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new b')
+[ERROR - 2021-12-24T03:57:17.623Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  (anonymous function) (https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.js:3)
+  (anonymous function) (https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.js:3)
+[ERROR - 2021-12-24T03:57:19.020Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T03:57:19.021Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_001/ads/k/kingsport/2021/12/22/81883/414x207/dfp/mobile/std/resp/index.html?link=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjstJq55hSiJA9Nn1yv0p90ekd-mi-IMreKFSrX-Zfjh-_qD4Dt6isiKZWmBv9WfJ1q9J5rQE8lbZD8s4YfBR4lFvCNaTV_U1rQQAym325M_5a0Svb-YQOLxvEBKgHbmtmyRAXmy0JQLfgmZyC7F9Ph-mHCgyn6q4wJfWlpdh4MW8dE_ukfsygN2D-c95aliCX1PAUpc8AA3S0V2KoIbt8WMyZZpQ9P9pHTk2EmsO3NgIMsZoHWQJ6joy-rLOgYNLxQrwySA5MZvNmlhIRjVEpbbMiAVz5kRhDREDK6QQmimckjq2-9qfYNIGQgcnDXRoHgezVus%26sig%3DCg0ArKJSzKsx0kccPWV_EAE%26fbs_aeid%3D%5Bgw_fbsaeid%5D%26urlfix%3D1%26adurl%3Dhttps%3A%2F%2Fkingsport.vn%2F656-mua-giang-sinh-rinh-qua-khung-cung-kingsport.html&otherlink=&campaign_name=King%20Sport&index_brand=GB1010.57_Kingsport&index_industrial=G1010_Th%C6%B0%C6%A1ng%20m%E1%BA%A1i%20-%20Th%C6%B0%C6%A1ng%20m%E1%BA%A1i%20%C4%91i%E1%BB%87n%20t%E1%BB%AD:797)
+[ERROR - 2021-12-24T03:57:19.328Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - msg: ReferenceError: Can't find variable: DFP
+[ERROR - 2021-12-24T03:57:19.328Z] Session [aaab3ac0-645c-11ec-8ee8-170fe33f12a4] - page.onError - stack:
+  global code (https://static.eclick.vn/html5/vs_002/ads/m/metro/2021/12/20/81378/414x345
