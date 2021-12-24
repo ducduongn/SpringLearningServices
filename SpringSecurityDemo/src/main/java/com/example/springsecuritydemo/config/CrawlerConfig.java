@@ -1,6 +1,6 @@
 package com.example.springsecuritydemo.config;
 
-import com.example.springsecuritydemo.crawler.WebCrawler;
+import com.example.springsecuritydemo.service.crawler.WebCrawler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,8 +10,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class CrawlerConfig {
 
-    @Bean
-    public WebCrawler webCrawler() {
-        return new WebCrawler();
-    }
 }

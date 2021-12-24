@@ -1,5 +1,6 @@
 package com.example.springsecuritydemo.models.articles;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,6 +13,7 @@ import javax.persistence.*;
 @Table(name = "category")
 @Getter
 @Setter
+@Builder
 public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

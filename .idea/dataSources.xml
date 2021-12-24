@@ -15,5 +15,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306/scheduler_demo</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="elcom_intern@localhost" uuid="7878a93f-90e0-4ff6-9e04-e7492c3dbca5">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/elcom_intern</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

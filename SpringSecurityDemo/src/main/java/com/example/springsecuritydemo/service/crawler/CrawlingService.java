@@ -1,7 +1,5 @@
 package com.example.springsecuritydemo.service.crawler;
 
-import com.example.springsecuritydemo.crawler.WebCrawler;
-import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +14,4 @@ public class CrawlingService {
     public void setCrawler(WebCrawler crawler) {
         this.crawler = crawler;
     }
-
-
 }

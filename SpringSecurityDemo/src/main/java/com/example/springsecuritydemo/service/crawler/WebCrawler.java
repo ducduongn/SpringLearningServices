@@ -1,17 +1,20 @@
-package com.example.springsecuritydemo.crawler;
+package com.example.springsecuritydemo.service.crawler;
 
 import com.example.springsecuritydemo.constant.cralwer.URLConstant;
+import com.example.springsecuritydemo.models.articles.Category;
+import com.example.springsecuritydemo.repository.category.CategoryRepository;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.HashSet;
 
 /**
  * @author ducduongn
@@ -19,11 +22,13 @@ import java.util.HashSet;
 
 @Slf4j
 @NoArgsConstructor
+@Service
 public class WebCrawler {
-    private Document document;
+    private CategoryRepository categoryRepository;
 
-    public WebCrawler(Document document) {
-        this.document = document;
+    @Autowired
+    public void setCategoryRepository(CategoryRepository categoryRepository) {
+        this.categoryRepository = categoryRepository;
     }
 
     @PostConstruct
@@ -42,7 +47,11 @@ public class WebCrawler {
                 log.info(title + ": " + url);
 
                 if (!url.contains("javascript")) {
-                    urlCateUrlMap.put(title, url);
+                    if (!categoryRepository.existsCategoryByName(title)) {
+                        categoryRepository.save(
+                                Category.builder().name(title).url(url).build()
+                        );
+                    }
                 }
             });
 
@@ -52,5 +61,4 @@ public class WebCrawler {
         }
         System.out.println(urlCateUrlMap);
     }
-
 }

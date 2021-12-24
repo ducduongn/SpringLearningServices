@@ -1,6 +1,7 @@
 package com.example.springsecuritydemo.models.articles;
 
 import com.example.springsecuritydemo.models.auth.User;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -12,6 +13,7 @@ import java.util.Date;
 @Setter
 @Entity
 @Table(name = "article")
+@Builder
 public class Article {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
